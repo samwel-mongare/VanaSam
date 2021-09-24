@@ -9,14 +9,24 @@
 	<p id="description">The form aims to create the best student experience in Microverse</p>
 	<div>
 		<form id="survey-form">
-			<label for="name">Name</label><br>
-			<input type="text" id="name" value="Enter your name"><br>
+			<label for="name" id="name-label">Name</label><br>
+			<input type="text" id="name" placeholder="Enter your name"><br>
 			
-			<label for="email">Email</label><br>
-			<input type="email" id="email" value="Enter your email" required="email"><br>
+			<label for="email" id="email-label">Email</label><br>
+			<input type="email" id="email" placeholder="Enter your email" required="email"><br>
 
-			<label for="number">Age</label><br>
-			<input type="text" id="number" value="Enter your age" required="[0-9]"><br>
+			<label for="number" id="number-label">Age</label><br>
+			<input type="number" id="number" placeholder ="Enter age btwn 18 and 40" min="18" max="40" ><br>
+
+			
+
+			<label for="dropdown" id="number"> select number</label>
+			<select id="dropdown">
+				<option value="Age 18-20"> Age 18-20 </option>
+				<option value="Age 20-30"> Age 20-30 </option>
+				<option value="Age 30-40"> Age 30-40 </option>
+			</select>
+
 
 
 
