@@ -1,2 +1,0 @@
-# VanaSam
-Microverse collaborative session
