@@ -3,11 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>Survey Form</title>
+	<link rel="stylesheet" href="survey form.css"
 </head>
 <body>
 	<h1 id="title">Microverse Survey Form</h1>
 	<p id="description">The form aims to create the best student experience in Microverse</p>
-	<div>
+	<div class="input-headings">
 		<form id="survey-form">
 			<label for="name" id="name-label">Name: &nbsp;</label><br>
 			<input type="text" id="name" placeholder="Enter your name"><br>
@@ -16,7 +17,8 @@
 			<input type="email" id="email" placeholder="Enter your email" required="email"><br>
 
 			<label for="number" id="number-label">Age: &nbsp;</label><br>	
-			<input type="number" id="number" placeholder ="Enter age btwn 18 and 40" min="18" max="40" ><br>		
+			<input type="number" id="number" placeholder ="Enter age btwn 18 and 40" min="18" max="40" class="form-inputs" required> </input> 
+			<br>		
 
 			<label for="dropdown" id="number">Select Months of partcipation: &nbsp;</label>
 			<label for="dropdown" id="number">
@@ -60,7 +62,7 @@
 			<input type="text-area" id="text_area" placeholder="Please type in your comments here"><br>
 
 
-<input type="submit" id="submit" value="Submit Survey">
+<input type="submit" id="submit" value="Submit Survey" class="submit-button">
 
 
 		</form>
