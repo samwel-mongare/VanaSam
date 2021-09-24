@@ -9,23 +9,29 @@
 	<p id="description">The form aims to create the best student experience in Microverse</p>
 	<div>
 		<form id="survey-form">
-			<label for="name" id="name-label">Name</label><br>
+			<label for="name" id="name-label">Name: &nbsp;</label><br>
 			<input type="text" id="name" placeholder="Enter your name"><br>
 			
-			<label for="email" id="email-label">Email</label><br>
+			<label for="email" id="email-label">Email: &nbsp;</label><br>
 			<input type="email" id="email" placeholder="Enter your email" required="email"><br>
 
-			<label for="number" id="number-label">Age</label><br>
+			<label for="number" id="number-label">Age: &nbsp;</label><br>	
 			<input type="number" id="number" placeholder ="Enter age btwn 18 and 40" min="18" max="40" ><br>
 
 			
 
-			<label for="dropdown" id="number"> select number</label>
+			<label for="dropdown" id="number">Select Months of partcipation: &nbsp;</label>
 			<select id="dropdown">
-				<option value="Age 18-20"> Age 18-20 </option>
-				<option value="Age 20-30"> Age 20-30 </option>
-				<option value="Age 30-40"> Age 30-40 </option>
+				<option value="Below 3 Months"> Below 3 Months </option>
+				<option value="Between 3-6 Months"> Between 3-6 Months </option>
+				<option value="Between 6-10 Months"> Between 6-10 Months </option>
 			</select>
+			<label></label><br>
+			<input id="model-color" type="radio" id="black" name="color" value="black">
+
+			<label for="text-area">Please input your comments</label><br>
+			<input type="text-area" id="text_area" placeholder="Please type in your comments here"><br>
+
 
 
 
